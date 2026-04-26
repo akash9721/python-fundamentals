@@ -1,4 +1,4 @@
-# find greatest of four no enter by user in python
+# task 1 : find greatest of four no enter by user in python
 number = []
 n = int(input("enter a no "))
 for i in range(n):
@@ -13,7 +13,7 @@ for i in number:
 print(f"maximum of 4 no is : {max_ele}")
 
 
-# write a program to check whether a post is talking abut "akash" or not
+# task 2 : write a program to check whether a post is talking abut "akash" or not
 
 post = input("enter a post line ")
 
