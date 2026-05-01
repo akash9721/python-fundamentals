@@ -1,0 +1,4 @@
+2023-10-01 10:00:01 INFO - System started
+2023-10-01 10:05:23 ERROR - Database connection failed
+2023-10-01 10:10:12 WARNING - Slow response time
+2023-10-01 10:15:45 ERROR - Timeout occurred
