@@ -1,0 +1,15 @@
+2026-05-02 08:00:01 INFO  [auth-service] User login successful: user_id=101
+2026-05-02 08:00:45 WARN  [db-service] Slow query detected: duration=1500ms
+2026-05-02 08:01:12 ERROR [payment-api] Connection timeout: remote_ip=192.168.1.50 status=504
+2026-05-02 08:01:15 ERROR [payment-api] Retrying connection: attempt=1
+2026-05-02 08:02:22 INFO  [auth-service] User logout: user_id=101
+2026-05-02 08:03:05 ERROR [gateway] Upstream service unavailable status=502
+2026-05-02 08:04:10 WARN  [db-service] High memory usage: 85%
+2026-05-02 08:05:00 ERROR [payment-api] Transaction failed status=500 customer_id=4421
+2026-05-02 08:05:12 INFO  [auth-service] User login successful: user_id=102
+2026-05-02 08:06:45 FATAL [kernel] Out of memory (OOM) killer triggered
+2026-05-03 10:00:01 INFO Service started
+2026-05-03 10:00:05 ERROR DB connection failed
+:q2026-05-03 10:00:10 WARN High memory
+2026-05-03 10:00:20 ERROR Timeout from API
+2026-05-03 10:00:30 INFO Healthy
