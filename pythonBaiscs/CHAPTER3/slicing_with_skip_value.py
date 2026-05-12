@@ -18,6 +18,7 @@ text = "abcdefghijk"
 # j = 9
 # k = 10 (Step 3 from 'h')
 
+#text = "abcdefghijk"
 print(text[1::3])  # 'behk'
 
 #some extra

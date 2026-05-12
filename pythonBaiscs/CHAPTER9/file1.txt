@@ -1,4 +1,9 @@
-2023-10-01 10:00:01 INFO - System started
-2023-10-01 10:05:23 ERROR - Database connection failed
-2023-10-01 10:10:12 WARNING - Slow response time
-2023-10-01 10:15:45 ERROR - Timeout occurred
+2026-05-12 08:00:01 INFO  [main] Application started successfully.
+2026-05-12 08:05:23 DEBUG [db_conn] Attempting connection to Database...
+2026-05-12 08:05:25 INFO  [db_conn] Database connection established.
+2026-05-12 08:12:44 ERROR [auth_service] Invalid user credentials for user 'admin'.
+2026-05-12 08:15:00 WARN  [cache] Memory usage exceeds 80%. Cleaning cache.
+2026-05-12 08:30:12 ERROR [payment_gateway] Timeout connecting to external API gateway.
+2026-05-12 08:31:05 INFO  [payment_gateway] Retrying payment transaction...
+2026-05-12 08:45:19 ERROR [file_uploader] FileNotFoundError: 'missing_config.json' not found.
+2026-05-12 09:00:00 INFO  [scheduler] Daily cleanup job completed.
